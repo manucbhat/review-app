@@ -1,5 +1,6 @@
 import React, { useState }  from "react";
 import CreateArea from "./components/CreateArea";
+import Header from "./components/Header";
 import Review from "./components/Review";
 
 function App(){
@@ -21,7 +22,11 @@ function App(){
 
   return (
     <div className="App">
+    <Header />
       <CreateArea onAdd={addReview}/>
+      <div>
+        <h1 className="header1">Reviews</h1>
+    </div>
       {review.map((ReviewItem,index) =>{
         return(
           <Review

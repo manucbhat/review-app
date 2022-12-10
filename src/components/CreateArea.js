@@ -51,20 +51,16 @@ function CreateArea(props){
                 <textarea name="Description" type="text" maxLength="150" onChange={handleChange} value={review.Description} />
             </div>
             <br />
-            <div>
-                <button type='submit'>Submit</button>
+            <div className="btn">
+                <button type='submit' className="btn1">Submit</button>
             </div>
             <br />
-            <div>
-                <button onClick={resetReview} >reset</button>
+            <div className="btn">
+                <button onClick={resetReview} className="btn2">reset</button>
             </div>
         </form>
 </section>
-<section className="review-2">
-    <div>
-        <h1>Reviews</h1>
-    </div>
-</section>
+
         </div>
     );
 }
