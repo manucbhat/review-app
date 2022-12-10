@@ -1,10 +1,13 @@
+import React  from "react";
+import CreateArea from "./components/CreateArea";
+
+function App(){
 
 
 
-function App() {
   return (
     <div className="App">
-      
+      <CreateArea />
     </div>
   );
 }
