@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: rgba(15, 223, 126, 0.418);
+  padding: 0 16px;
+}
+
+.header1 {
+  display: flex;
+  justify-content: center;
+  background-color: #eea5ea;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+header{
+  background-color: #0e56c2;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+form {
+  position: relative;
+  width: 700px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.btn1{
+  color: green;
+  width: 100px;
+  height: 30px;
+}
+.btn2{
+  color: red;
+  width: 100px;
+  height: 30px;
+}
+
+.review-2{
+  width: 1000px;
+display: flex;
+justify-content: center;
+margin-left: -350px;
+}
+
+.review{
+  position: relative;
+  width: 300px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+
+}
+
+.header2{
+  color: darkslateblue;
+  font-size: x-large;
+}
+.para1{
+  color: black;
+  font-size: large;
+  margin-top: 10px; ;
+}
+.para2{
+  color: black;
+  font-size: medium;
+}
+.deletebtn{
+  color: red;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px; 
+  margin-top: 10px;
+}
